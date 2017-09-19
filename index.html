@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <script src="https://apis.google.com/js/client.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+    PUT UR API KEY HERE:
+    <br>
+    <input type="text" id="key" value="put ur key from google console here after enabling this api" >
+    <button onclick="setKey(document.getElementById('key').value);">Set Key</button>
+
+    <br>
+    <br>
+    <button onclick="fetch();">START OPERATION</button>
+    <br>
+    <div id="lool">
+
+        <p><a href="https://cloud.google.com/video-intelligence/docs/">SEE THE DOCUMENTATION HERE</a>
+        </p>
+    </div>
+    <br>
+
+
+    <button onclick="fetchResults();">GET RESULTS</button>
+    <br>
+    <p id="lol">
+        <br>YOUR OPERATION REQUEST ID WILL COME HERE
+    </p>
+    <p id="rofl">
+        <br>
+    </p>
+</body>
+<script src="googleVideoIntelligenceApiPOC.js">
+</script>
+
+</html>
